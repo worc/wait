@@ -6,7 +6,7 @@ import App from './app'
 
 const GlobalStyle = createGlobalStyle`
   body {
-    font-family: "Rokkittt", serif;
+    font-family: "Comic Neue", sans-serif;
     font-size: 16px;
   }
 `
