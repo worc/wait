@@ -15,7 +15,7 @@ export default function Delay ({ timeout }: { timeout: number }) {
   return (
     <div>
       <div>Delay</div>
-      <TargetArea onMouseMove={ useDelay(handleMouseMove, timeout) }>target area</TargetArea>
+      <TargetArea onMouseMove={ useDelay(handleMouseMove, timeout) }>mouse move</TargetArea>
       <EventsContainer>{ events.map(event => {
         return <EventMarker key={event.timeStamp}/>
       })}</EventsContainer>

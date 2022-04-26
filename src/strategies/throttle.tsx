@@ -15,7 +15,7 @@ export default function Throttle ({ timeout }: { timeout: number }) {
   return (
     <div>
       <div>Throttle</div>
-      <TargetArea onMouseMove={ useThrottle(handleMouseMove, timeout) }>target area</TargetArea>
+      <TargetArea onMouseMove={ useThrottle(handleMouseMove, timeout) }>mouse move</TargetArea>
       <EventsContainer>{ events.map(event => {
         return <EventMarker key={event.timeStamp}/>
       })}</EventsContainer>

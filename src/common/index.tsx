@@ -6,6 +6,7 @@ export const TargetArea = styled.div`
   display: flex;
   height: 80px;
   justify-content: center;
+  text-align: center;
   width: 80px;
 `
 
