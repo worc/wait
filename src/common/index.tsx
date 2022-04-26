@@ -13,7 +13,7 @@ export const TargetArea = styled.div`
 export const EventsContainer = styled.div`
   display: flex;
   gap: 8px;
-  height: 80px;
+  height: 64px;
 `
 
 export const EventMarker = styled.div`

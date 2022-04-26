@@ -32,6 +32,12 @@ export default function App () {
         <Throttle timeout={ timeout }/>
       </Demo>
 
+      <hr/>
+
+      <footer style={{ textAlign: 'right' }}>
+        <a href='https://github.com/worc/wait'>source on github</a>
+      </footer>
+
     </>
   )
 }
