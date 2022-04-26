@@ -23,7 +23,7 @@ export default function App () {
 
   return (
     <>
-      <h1 style={{ textAlign: 'center' }}>Live vs Debounced vs Throttled vs Delayed</h1>
+      <h1 style={{ textAlign: 'center' }}>Live vs Debounced vs Delayed vs Throttled</h1>
 
       <Demo>
         <Live/>
