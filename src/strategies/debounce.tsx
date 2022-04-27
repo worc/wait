@@ -15,7 +15,7 @@ export default function Debounce ({ timeout }: { timeout: number }) {
   return (
     <div>
       <div>Debounced</div>
-      <TargetArea onMouseMove={ useDebounce(handleMouseMove, timeout) }>mouse move</TargetArea>
+      <TargetArea onMouseMove={ useDebounce(handleMouseMove, timeout) } onTouchMove={ useDebounce(handleMouseMove, timeout) }>mouse move</TargetArea>
       <EventsContainer>{ events.map(event => {
         return <EventMarker key={event.timeStamp}/>
       })}</EventsContainer>

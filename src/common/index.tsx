@@ -7,6 +7,7 @@ export const TargetArea = styled.div`
   height: 80px;
   justify-content: center;
   text-align: center;
+  user-select: none;
   width: 80px;
 `
 

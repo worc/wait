@@ -14,7 +14,7 @@ export default function Live () {
   return (
     <div>
       <div>Live</div>
-      <TargetArea onMouseMove={ handleMouseMove }>mouse move</TargetArea>
+      <TargetArea onMouseMove={ handleMouseMove } onTouchMove={ handleMouseMove }>mouse move</TargetArea>
       <EventsContainer>{ events.map(event => {
         return <EventMarker key={event.timeStamp}/>
       })}</EventsContainer>
